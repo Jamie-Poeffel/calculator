@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cont">
+      <div class="container">
+        <div class="all">
+          <div class="inputContainer">
+            <!-- Rechnungsweg wird oben angezeigt -->
+            <h3 id="storeval"></h3>
+            <!-- Ergebnis unten -->
+            <h1 id="calcval">0</h1>
+          </div>
+          <div class="buttons">
+            <button onclick="OnACCLick()" class="but col" id="delbutton">
+              AC
+            </button>
+            <button onclick="OnPlusMinusClick()" class="but col">+/-</button>
+            <button onclick="OnProcentClicked()" class="but col">%</button>
+            <button onclick="OnOperatorClicked('÷')" class="but gre">÷</button>
+            <button onclick="OnNumberClicked(7)" class="but">7</button>
+            <button onclick="OnNumberClicked(8)" class="but">8</button>
+            <button onclick="OnNumberClicked(9)" class="but">9</button>
+            <button onclick="OnOperatorClicked('×')" class="but gre">×</button>
+            <button onclick="OnNumberClicked(4)" class="but">4</button>
+            <button onclick="OnNumberClicked(5)" class="but">5</button>
+            <button onclick="OnNumberClicked(6)" class="but">6</button>
+            <button onclick="OnOperatorClicked('−')" class="but gre">−</button>
+            <button onclick="OnNumberClicked(1)" class="but">1</button>
+            <button onclick="OnNumberClicked(2)" class="but">2</button>
+            <button onclick="OnNumberClicked(3)" class="but">3</button>
+            <button onclick="OnOperatorClicked('+')" class="but gre">+</button>
+            <button class="but"><ion-icon name="calculator"></ion-icon></button>
+            <button onclick="OnNumberClicked(0)" class="but">0</button>
+            <button onclick="OnDotClicked()" class="but">.</button>
+            <button onclick="OnEqualClicked()" class="but gre">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="count"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
