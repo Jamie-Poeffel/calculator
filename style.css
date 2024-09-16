@@ -28,6 +28,7 @@ body {
   border-radius: 2rem;
   padding: 20px;
   width: fit-content;
+  flex-grow: 1;
 }
 
 .inputContainer h1 {
