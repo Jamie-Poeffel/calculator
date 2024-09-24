@@ -9,8 +9,8 @@ body {
   background-color: black;
   margin: 0;
   display: flex;
-  justify-content: center; /* Zentriert horizontal */
-  align-items: center; /* Zentriert vertikal */
+  justify-content: center; 
+  align-items: center; 
   min-width: 320px;
   min-height: 100vh;
 }
@@ -57,17 +57,17 @@ body {
   font-size: 30px;
   font-weight: 600;
   border: none;
-  background-color: rgb(42, 43, 48); /* Entfernt die schwarzen Ränder */
+  background-color: rgb(42, 43, 48); 
 }
 
-/* Farben zurücksetzen */
+
 .col {
   background-color: rgba(
     149,
     151,
     153,
     0.3
-  ); /* Ursprüngliche Farbe für AC, +/-, % */
+  ); 
 }
 
 .gre {
@@ -76,7 +76,7 @@ body {
     149,
     0,
     0.911
-  ); /* Ursprüngliche Farbe für Operatoren */
+  ); 
 }
 
 .buttons {
